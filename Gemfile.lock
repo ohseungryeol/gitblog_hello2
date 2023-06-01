@@ -41,6 +41,8 @@ GEM
       listen (~> 3.0)
     kramdown (2.4.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -61,6 +63,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -68,8 +71,10 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   jekyll-paginate-v2 (~> 2.0)
+  kramdown-parser-gfm
   phantom!
   rake (~> 12.3)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.13
